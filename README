@@ -2,7 +2,7 @@ NAME
     Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 VERSION
-    version 0.7.0
+    version 0.8.0
 
 SYNOPSIS
         $ cpan Task::BeLike::YANICK
@@ -66,6 +66,9 @@ MODULES INSTALLED BY THIS TASK
 
             module_info Task::BeLike::YANICK
 
+    App::PAUSE::cleanup
+        Muuuch better than via the PAUSE web interface.
+
   Web Development
     Dancer
         So you think you can dance?
@@ -95,6 +98,10 @@ MODULES INSTALLED BY THIS TASK
     Test::Perl::Critic
     Test::Perl::Critic::Progressive
         Raise the bar, millimeter by millimeter.
+
+    DBD::Mock
+        Want to test the logic of something connecting to a database, but
+        don't have a database handy? No problem.
 
   Development
     Method::Signatures
@@ -191,7 +198,7 @@ AUTHOR
     Yanick Champoux <yanick@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2012 by Yanick Champoux.
+    This software is copyright (c) 2013 by Yanick Champoux.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

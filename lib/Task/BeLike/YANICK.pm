@@ -3,7 +3,7 @@ BEGIN {
   $Task::BeLike::YANICK::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Task::BeLike::YANICK::VERSION = '0.7.0';
+  $Task::BeLike::YANICK::VERSION = '0.8.0';
 }
 # ABSTRACT: like Yanick? Be like Yanick!
 
@@ -15,6 +15,7 @@ use strict;
 1; # End of Task::BeLike::YANICK
 
 __END__
+
 =pod
 
 =head1 NAME
@@ -23,7 +24,7 @@ Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 =head1 VERSION
 
-version 0.7.0
+version 0.8.0
 
 =head1 SYNOPSIS
 
@@ -123,6 +124,10 @@ Want to know where the module is?
 
     module_info Task::BeLike::YANICK
 
+=item L<App::PAUSE::cleanup>
+
+Muuuch better than via the PAUSE web interface.
+
 =back
 
 =head2 Web Development
@@ -178,6 +183,11 @@ Add some class to your testing.
 =item L<Test::Perl::Critic::Progressive>
 
 Raise the bar, millimeter by millimeter.
+
+=item L<DBD::Mock>
+
+Want to test the logic of something connecting to a database, but don't
+have a database handy? No problem.
 
 =back
 
@@ -318,10 +328,9 @@ Yanick Champoux <yanick@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Yanick Champoux.
+This software is copyright (c) 2013 by Yanick Champoux.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

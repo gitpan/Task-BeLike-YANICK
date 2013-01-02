@@ -4,7 +4,7 @@ Task::BeLike::YANICK - like Yanick? Be like Yanick!
 
 # VERSION
 
-version 0.7.0
+version 0.8.0
 
 # SYNOPSIS
 
@@ -87,6 +87,10 @@ Want to know where the module is?
 
     module_info Task::BeLike::YANICK
 
+- [App::PAUSE::cleanup](http://search.cpan.org/perldoc?App::PAUSE::cleanup)
+
+Muuuch better than via the PAUSE web interface.
+
 ## Web Development
 
 - [Dancer](http://search.cpan.org/perldoc?Dancer)
@@ -126,6 +130,11 @@ Add some class to your testing.
 - [Test::Perl::Critic::Progressive](http://search.cpan.org/perldoc?Test::Perl::Critic::Progressive)
 
 Raise the bar, millimeter by millimeter.
+
+- [DBD::Mock](http://search.cpan.org/perldoc?DBD::Mock)
+
+Want to test the logic of something connecting to a database, but don't
+have a database handy? No problem.
 
 ## Development
 
@@ -196,7 +205,7 @@ Github actions.
 
 # AUTHOR
 
-Yanick Champoux, `<yanick at cpan.org>`
+Yanick Champoux, `<yanick at cpan.org>` [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # BUGS
 
@@ -242,11 +251,11 @@ under the same terms as Perl itself.
 
 # AUTHOR
 
-Yanick Champoux <yanick@cpan.org>
+Yanick Champoux <yanick@cpan.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012 by Yanick Champoux.
+This software is copyright (c) 2013 by Yanick Champoux.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
